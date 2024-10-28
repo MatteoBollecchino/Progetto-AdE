@@ -1,0 +1,1070 @@
+.data
+    
+listInput1: .string "ADD(1) ~ ADD(a) ~ ADD(a) ~ ADD(B) ~ ADD(;) ~ ADD(9) ~ PRINT ~SSX~PRINT~SORT~PRINT~DEL(b) ~PRINT~DEL(B) ~PRINT~PRI~SDX~PRINT~REV~PRINT"
+listInput2: .string "ADD(1) ~ PRINT~ SSX ~ PRINT~ ADD(a) ~ add(B) ~ ADD(B) ~ ADD ~ ADD(9) ~PRINT~SORT(a)~PRINT~DEL(bb) ~DEL(B) ~PRINT~REV~PRINT~SDX~PRINT"
+listInput3: .string "SDX~ ADD(A)~ SDX~ADD(8)~ADD(B)~ ADD(0)~ADD(c)~ ADD(A)~ ADD(A)~ PRINT~ DEL(A)~ PRINT~SDX~ PRINT~SSX~ PRINT~ ADD(9)~PRINT~SSX~ PRINT~SORT~ DEL(c)~PRINT~ REV~ PRINT~ADD(9)~ADD(10)~PRINT~DEL(9)~PRINT~SDX~ADD(9)"
+listInput4: .string "ADD(9)~ADD(9)~ADD(B)~PRINT~ADD(.)~ADD(])~ADD(y)~PRINT~SORT~PRINT~~REV~PRINT~ADD(6)~DEL(t)~PRINT~SORT~PRINT~DEL(y)~PRINT"
+#listInput4: .string "ADD(9)~DEL(0)~PRINT~REV~PRIN~SORT~ADD(B)~ADD(.)~ADD(])~ADD(y)~PRINT~SORT~PRINT~~REV~PRINT~ADD(6)~DEL(t)~PRINT~SORT~PRINT~e~i~o~p~f~j~k~p~i~ADD(9)~o~ADD(9)~PP"
+listInput5: .string "PRINT~SORT~PRINT~REV~PRINT~DEL(A) ~ADD(A) ~ADD(B)~PRINT ~DEL(A) ~PRINT~DEL(B)~PRINT~SORT~PRINT~REV~PRINT~DEL(.) ~PRINT"
+#listInput6: .string "ADD(P)~ADD(I)~ADD(E)~ADD(R)~ADD(Y)~ADD(O)~ADD(U)~PRINT~REV~PRINT~DEL(P)~PRINT~SSX~PRINT~SDX~PRINT~SORT~PRINT"
+#listInput7: .string " ADD(1).~   ADD(2)~ AADD(3)~ AD D(4)~ REV ~print~ DEL()~PRINTL~DEL(44)~PRINT~ADD(é)~ sorrt ~ SDS~PRINT  "
+#listInput8: .string "ADD(4)~ADD(2)~DEL(4)~PRINT~ADD(_)~ADD(A)~ADD(A)~ADD(A)~PRINT~SORT~DEL(A)~PRINT~ADD(9)~PRINT~DEL(2)~PRINT~DEL(_)~PRINT~DEL(2)~PRINT~ADD())~PRINT"
+listInput9: .string "DEL(8)~PRINT~ADD(8)~ADD(4)~PRINT~DEL(4)~PRINT~DEL(U)~PRINT~DEL(8)~DE~PRINT"
+#listInput10: .string "ADD(1)~ADD(2)~ADD(3)~ADD(4)~PRINT~SSX~PRINT~SSX~PRINT~SSX~PRINT~SDX~PRINT~SDX~PRINT~SDX~PRINT~SDX~PRINT~SDX~PRINT~SDX~PRINT"
+#listInput11: .string "ADD(2)~ADD(8)~ADD(4)~ADD(1)~ADD(9)~ADD(3)~ADD(6)~ADD(5)~ADD(7)~PRINT~SORT~PRINT"
+#listInput12: .string "ADD(b)~ADD(B)~ADD(3)~ADD(4)~ADD(4)~ADD(_)~ADD(E)~ADD(-)~ADD( )~ADD(;)~ADD(1)~PRINT~SORT~PRINT~REV~PRINT~REV~PRINT"
+listInput13: .string "  ~~~"
+listInput14: .string "                                          "
+listInput15: .string ""
+listInput16: .string "~ ~ ~"
+#listInput17: .string "ADD(2)~ADD(8)~ADD(4)~ADD(1)~ADD(9)~ADD(3)~ADD(6)~ADD(5)~ADD(7)~ADD(2)~ADD(8)~ADD(4)~ADD(1)~ADD(9)~ADD(3)~ADD(6)~ADD(5)~ADD(7)~ADD(2)~ADD(8)~ADD(4)~ADD(1)~ADD(9)~ADD(3)~ADD(6)~ADD(5)~ADD(7)~ADD(2)~ADD(8)~ADD(4)~PRINT~ADD(1)~ADD(9)~ADD(3)~ADD(6)~ADD(5)~ADD(7)~"
+#listInput18: .string "PRINT~ADD(1)~PRINT~ADD(1)~ADD(1)~PRINT~DEL(1)~PRINT~ADD(2)~PRINT~DEL(2)~PRINT~DEL(2)~DEL(2)~REV~PRINT~ADD(4)~PRINT~DEL(2)~PRINT~ADD(5)~ADD(6)~PRINT~REV~PRINT~DEL(3)~PRINT~REV~PRINT"
+#listInput19: .string "      ADD(3)     l~ADD(3)~PRINT~DEL( 3)~PRINT~ADD(3)~ADD(3)~ADD(3)~ADD(4)~ADD(3)~ADD(3)~PRINT~DEL(3) ~PRINT~ADD(5)~ADD(6)~PRI NT~ADD(3)~ADD(3)~PRINT~DEL(3)~PRINT~ADD(7)~PRINT"
+#listInput20: .string "ADD(1) ~PRINT~ ADD(?r)~PRINT~ADD(2)~ADD(3)~DEL(2)~ADD(4)~ADD(5)~ADD(6)~PRINT~DEL(5) ~ADD(!). ~PRINT~DEL(6)~PRINT"
+#listInput21: .string "   DEL(?)  ~DEL(?-) ~DEL(?)~DEL(?)."
+#listInput22: .string "DEL(.)~PRINT~ ADD(.)~ADD(9)~ADD(8)~ADD(.)~ADD(,)~ADD(.)~ADD(.)~PRINT~DEL(.)~PRINT~DEL(,)~PRINT~SORT~PRINT~ADD({)~PRINT~....A(((DD)     ~              "
+listInput23: .string "ADD(9)~ADD(,)~PRINT~SORT~PRINT~ADD(7)~ADD(.)~ADD(9)~ADD(9)~ADD(K)~ADD(1)~ADD(9)~PRINT~DEL(9)~PRINT~SORT~PRINT~REV~PRINT~SDX~SDX~SDX~PRINT~ADD(8)~ADD(t)~PRINT~SSX~SSX~PRINT~SORT~PRINT"
+listInput24: .string "DEL(.)~PRINT~ ADD(.)~ADD(.)~ADD()~ADD(.)~ADD(.)~PRINT~DEL(.)~PRINT~DEL(,)~PRINT~SORT~PRINT~ADD(~)~PRINT~....A(((DD)     ~              "
+listInput25: .string "DEL(1)~SSX(I)~PRINT~DEL(1)~PRINT~ADD(1)~PRINT~DEL(1)~PRINT~ADD(3)~ADD(2)~ADD(1)~SORT(8)~PRINT~DEL(1)~PRINT~DEL(2)~PRINT~DEL(3)~PRINT~DEL( ~)~ADD(1)~ADD(1)~ADD(1)~ADD(1)~ADD(1)~ADD(1)~PRINT~DEL(1)~PRINT~ DEL(3)  ~"
+
+# la tilde funge da spaccatura fra un comando e l'altro
+tilde: .byte 126
+
+# lo spazio vuoto e' da ignorare a meno che non si trovi tra le parantesi tonde dopo, o prima, di un altro dato da inserire nella lista concatenata
+space: .byte 32
+
+# valore necessario per effettuare ultimo_controllo
+valore_fine_loop: .word 1000000000
+
+# area memoria da cui andare a recuperare il puntatore alla testa della lista
+memoria_puntatore_testa_lista: .string ""
+puntatore_testa_lista: .word 0xffffffff
+
+# indirizzo_memoria_maggiore -> indirizzo di memoria libero in cui memorizzare il prossimo elemento della lista 
+#                               o da cui si ritrova memoria libera
+indirizzo_memoria_maggiore: .word 0xffffffff 
+
+new_line: .string "\n"
+
+# dentro la stringa corretta saranno presenti solo i comandi formattati correttamente
+# e quindi non saranno presenti spazi se non come parametri delle chiamate a funzione
+stringa_corretta: .string " "
+
+.text
+################## MAIN ##################################################
+ 
+# in questa sezione utilizzo i registri s0-s11 per memorizzare le stringhe corrispondenti a comandi formattati correttamente
+li s0,65 # s0 -> A    
+li s1,68 # s1 -> D
+li s2,69 # s2 -> E
+li s3,76 # s3 -> L
+li s4,80 # s4 -> P
+li s5,82 # s5 -> R
+li s6,73 # s6 -> I
+li s7,78 # s7 -> N
+li s8,84 # s8 -> T
+li s9,83 # s9 -> S
+li s10,88 # s10 -> X
+li s11,86 # s11 -> V
+  
+la a0,stringa_corretta # a0 -> stringa finale (al massimo 60 byte poiche' memorizzo al piu' 2 byte per comando, che al massimo sono 30)
+la a1,listInput25 # a1 -> lista input
+lb a2,tilde    # a2 -> tilde
+lw a3,valore_fine_loop
+addi a4,a0,70 # a4 -> puntatore ad area di memoria libera per memorizzare le sottostrighe (60 byte massimi della stringa finale + 10 byte di scarto)
+li a5,30 # a5 -> limite massimo per quantita' di comandi
+jal controllo_input_e_creazione_stringa_finale # la funzione restituisce in a0 il puntatore alla coda della stringa_corretta
+
+la a0,stringa_corretta
+li a7,4
+ecall
+
+lw t1,puntatore_testa_lista
+sw t1,0(a4) # creazione puntatore alla testa della lista (inizialmente posto a 0xffffffff)
+mv a2,a4 # a2,a4 -> indirizzo di memoria per lista
+
+# l'area di memoria per la memorizzazione delle sottostringhe nell'analisi della listInput viene poi 'riciclata' per la memorizzazione della lista
+
+addi a4,a4,4 
+mv a1,a4 # a1 -> prima area di memoria libera per la memorizzazione degli elementi della lista
+jal comprensione_stringa_finale_ed_esecuzione_funzioni
+
+li a7,10
+ecall
+
+############# PROCEDURE ###############################################################
+# parametri input: a0 -> stringa finale, a1 -> lista input, a2 -> tilde, a3 -> valore_fine_loop
+#                  a4 -> puntatore ad area di memoria libera per memorizzare le sottostringhe 
+#                  a5 -> limite massimo per quantita' di comandi
+# parametri output: a0 -> puntatore alla coda della stringa finale
+controllo_input_e_creazione_stringa_finale:
+    li t0,0 # t0 -> contatore loop_controllo_stringa_input
+    li t3,0 # t3 -> indice carattere sottostringa
+    li t5,0 # t5 -> contatore comandi
+
+    loop_controllo_stringa_input:
+        add t1,t0,a1
+        lb t2,0(t1) # t2 -> elemento della ListInput preso in considerazione
+        beq t2,zero,ultimo_controllo
+        beq t2,a2,controllo_sottostringa
+        add t4,t3,a4
+        sb t2,0(t4)
+        addi t3,t3,1  
+        addi t0,t0,1
+        j loop_controllo_stringa_input
+         
+    ultimo_controllo:
+        lw t2,valore_fine_loop # assegno a t2 valore_fine_loop (indicato nella sezione .data) che lo identifica univocamente 
+        #e poiche' tale valore lo assume solo quando si raggiunge il fineStringa della stringa di input, sara' allora che verra' fatto il salto ad end_loop
+         
+    controllo_sottostringa:
+    # controlla che la sottostringa memorizzata tramite l'utilizzo di a4 sia un comando formattato correttamente o meno
+        addi t5,t5,1
+        addi sp,sp,-36
+        sw ra,0(sp)
+        sw t0,4(sp)
+        sw t2,8(sp)
+        sw t5,12(sp)
+        sw a3,16(sp)
+        sw a1,20(sp)
+        sw a2,24(sp)
+        sw a5,28(sp)
+        sw a4,32(sp)
+        li a3,2 # a3 -> 2 per scopo in controllo_per_argomento
+        lb a1,space # a1 -> space
+        mv a2,a4
+        jal funzione_controllo_e_concatenazione
+        addi sp,sp,-4
+        sw a0,0(sp)
+        mv a0,a2
+        jal azzeramento_sottostringa 
+        lw a0,0(sp)
+        addi sp,sp,4
+        
+        lw ra,0(sp)
+        lw t0,4(sp)
+        lw t2,8(sp)
+        lw t5,12(sp)
+        lw a3,16(sp)
+        lw a1,20(sp)
+        lw a2,24(sp)
+        lw a5,28(sp)
+        lw a4,32(sp)
+        addi sp,sp,36
+        beq t2,a3,end_loop_controllo_input_e_creazione_stringa_finale
+        bgt t5,a5,end_loop_controllo_input_e_creazione_stringa_finale
+        addi t0,t0,1 # t0 si incrementa dopo la chiamata a funzione cosi' che nel confronto si possa ripartire dal punto in cui si e' fatto la beq tilde
+        li t3,0 # si riporta t3 a 0 in quanto sara' il contatore di una nuova sottostringa 
+        j loop_controllo_stringa_input 
+                
+    end_loop_controllo_input_e_creazione_stringa_finale:
+        j RETURN
+###########################################################################
+#il metodo si usa per liberare un'area di memoria occupata
+# parametro input: a0 -> puntatore area di memoria libera per memorizzazione sottostrighe
+azzeramento_sottostringa:
+    li t0,0 # t0 -> elemento per la cancellazione dell'elemento della sottostringa
+    li t1,0 # t1 -> indice elemento sottostringa da azzerare
+    loop_azzeramento_sottostringa:
+        add t2,t1,a0 # t2 -> indirizzo di memoria elemento sottostringa analizzato
+        lb t3,0(t2) # t3 -> elemento sottostringa analizzato
+        beq t3,zero,end_loop_azzeramento_sottostringa
+        addi t1,t1,1
+        sb t0,0(t2)
+        j loop_azzeramento_sottostringa
+    end_loop_azzeramento_sottostringa:
+        j RETURN
+        
+###########################################################################
+#parametri input: a0 -> indirizzo di un carattere della stringa finale
+#                 a1 -> spazio, a2 -> puntatore alla testa sottostriga considerata
+#                 a3 -> 2 per scopo in controllo_per_argomento
+#parametri output: a0 -> puntatore alla coda della stringa finale fino a quel momento modificata
+funzione_controllo_e_concatenazione: 
+    li t0,0 # t0 -> indice elemento sottostringa da analizzare
+    controllo_spazi_iniziali:
+        add t1,t0,a2 # t1 -> indirizzo di memoria elemento sottostringa
+        lb t2,0(t1) # t2 -> elemento sottostringa
+        bne t2,a1,controllo_prima_lettera
+        addi t0,t0,1
+        j controllo_spazi_iniziali
+        
+    controllo_prima_lettera:    
+        mv t3,t2   # t3 -> t2 affinche' si sappia in seguito quale concatenazione fare
+        beq t2,s0,controllo_per_ADD_1 # in questo caso t2 -> A per la ADD
+        beq t2,s1,controllo_per_DEL_1 # in questo caso t2 -> D per la DEL
+        beq t2,s4,controllo_per_PRINT_1 # in questo caso t2 -> P per la PRINT
+        beq t2,s9,controllo_per_SDO # in questo caso t2 -> S e quindi puo' essere sia un SSX,che un SDX, che un SORT
+        beq t2,s5,controllo_per_REV_1 # in questo caso t2 -> R per la REV
+        j esito_negativo
+    
+    controllo_per_ADD_1: # controllo la prima D per la ADD
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # t2 -> il secondo carattere per fare il prossimo confronto
+        beq t2,s1,controllo_per_ADD_2 
+        j esito_negativo
+        
+    controllo_per_ADD_2:  # controllo la seconda D per la ADD
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il terzo carattere per fare il prossimo confronto
+        beq t2,s1,controllo_per_para
+        j esito_negativo
+        
+    controllo_per_DEL_1:  # controllo la E per la DEL
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il secondo carattere per fare il prossimo confronto
+        beq t2,s2,controllo_per_DEL_2 
+        j esito_negativo
+        
+    controllo_per_DEL_2: # controllo la L per la DEL
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il terzo carattere per fare il prossimo confronto
+        beq t2,s3,controllo_per_para
+        j esito_negativo
+    
+    controllo_per_para:  # para -> parentesi aperta (Controllo per la parentesi aperta)
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il quarto carattere per fare il prossimo confronto (per ADD e DEL)
+        li t4,40 # t4 -> parentesi aperta
+        beq t2,t4,controllo_per_argomento
+        j esito_negativo
+        
+    controllo_per_argomento:
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il quinto carattere per fare il prossimo confronto (per ADD e DEL)
+        li t6,31
+        slti t4,t2,126
+        slt t1,t6,t2
+        add t4,t4,t1
+        mv t6,t2 # salvo in t6 l'argomento del comando cosi' da poterlo concatenare se necessario
+        beq t4,a3,controllo_per_parc # se t4=2 l'argomento in analisi e' valido
+        j esito_negativo
+        
+    controllo_per_parc:  # parc -> parentesi chiusa (Controllo per la parentesi chiusa)
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il sesto carattere per fare il prossimo confronto (per ADD e DEL)
+        li t4,41 # t4 -> parentesi chiusa
+        beq t2,t4,controllo_spazi_finali
+        j esito_negativo
+        
+    controllo_per_PRINT_1: # controllo la R per la PRINT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s5,controllo_per_PRINT_2 
+        j esito_negativo
+        
+    controllo_per_PRINT_2: # controllo la I per la PRINT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s6,controllo_con_PRINT_3
+        j esito_negativo
+    
+    controllo_con_PRINT_3: # controllo la N per la PRINT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s7,controllo_per_PRINT_4 
+        j esito_negativo
+        
+    controllo_per_PRINT_4: # controllo la T per la PRINT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s8,controllo_spazi_finali
+        j esito_negativo
+        
+    controllo_per_REV_1: # controllo la E per la REV
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s2,controllo_per_REV_2
+        j esito_negativo
+        
+    controllo_per_REV_2: # controllo la V per la REV
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s11,controllo_spazi_finali
+        j esito_negativo
+        
+    controllo_per_SDO: # Poiche' il primo carattere era una S, controllo che il successivo sia una S, o una D, o una O
+        li t4,79 # t4 -> O
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1)  # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        mv t5,t2 # t2 viene memorizzato in t5 affinche' si sappia in seguito quale concatenazione fare
+        beq t2,s9,controllo_per_SSX_SDX # in questo caso t2 -> S
+        beq t2,s1,controllo_per_SSX_SDX # in questo caso t2 -> D
+        beq t2,t4,controllo_per_SORT_1 # in questo caso t2 -> O 
+        j esito_negativo
+        
+    controllo_per_SSX_SDX: # Sia che il carattere precedente sia stato una D o una S, il successivo deve essere una X per essere un comando ben formattato
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s10,controllo_spazi_finali
+        j esito_negativo
+        
+    controllo_per_SORT_1: # controllo la R per il SORT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s5,controllo_per_SORT_2
+        j esito_negativo
+        
+    controllo_per_SORT_2: # controllo la T per il SORT
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,s8,controllo_spazi_finali
+        j esito_negativo
+
+    controllo_spazi_finali: # se in t2   presente un carattere diverso da uno spazio, allora il comando e' mal formattato
+        addi t0,t0,1 
+        add t1,t0,a2
+        lb t2,0(t1) # memorizzo in t2 il carattere successivo per fare il prossimo confronto
+        beq t2,zero,concatenazione
+        bne t2,a1,esito_negativo
+        j controllo_spazi_finali
+         
+    concatenazione: 
+        mv t2,t3 # memorizzo il primo carattere della sottostringa da concatenare
+        beq t2,s0,concatena_ADD # in questo caso t2 -> A per la ADD
+        beq t2,s1,concatena_DEL # in questo caso t2 -> D per la DEL
+        beq t2,s4,concatena_PRINT # in questo caso t2 -> P per la PRINT
+        beq t2,s9,controllo_concatenazione_SDO # in questo caso t2 -> S e quindi puo' trattarsi o di SSX, o di SDX,o di SORT
+        beq t2,s5,concatena_REV # in questo caso t2 -> R per la REV
+     
+    controllo_concatenazione_SDO:
+        mv t2,t5 # memorizzo il secondo carattere della sottostringa da concatenare (solo per comandi SSX, SDX, SORT)
+        beq t2,s9,concatena_SSX # in questo caso t2 -> S
+        beq t2,s1,concatena_SDX # in questo caso t2 -> D
+        beq t2,t4,concatena_SORT # in questo caso t2 -> O 
+        
+    concatena_ADD:  
+        sb s0,0(a0)
+        addi a0,a0,1
+        sb t6,0(a0) # riprendo l'argomento del comando da concatenare
+        addi a0,a0,1
+        j RETURN
+        
+    concatena_DEL:
+        sb s1,0(a0)
+        addi a0,a0,1
+        sb t6,0(a0)# riprendo l'argomento del comando da concatenare
+        addi a0,a0,1
+        j RETURN
+   
+    concatena_PRINT:
+        sb s4,0(a0)
+        addi a0,a0,1  
+        j RETURN
+    
+    concatena_SDX:
+        sb s9,0(a0)
+        addi a0,a0,1
+        sb s1,0(a0)
+        addi a0,a0,1
+        j RETURN
+    
+    concatena_SSX:
+        sb s9,0(a0)
+        addi a0,a0,1
+        sb s9,0(a0)
+        addi a0,a0,1
+        j RETURN
+    
+    concatena_SORT:
+        sb s9,0(a0)
+        addi a0,a0,1
+        li t0,79
+        sb t0,0(a0)
+        addi a0,a0,1
+        j RETURN
+    
+    concatena_REV:
+        sb s5,0(a0)
+        addi a0,a0,1
+        j RETURN
+        
+    esito_negativo:
+        j RETURN
+############################################################################
+# parametri: a0 -> indirizzo carattere stringa finale, 
+#            a1 -> indirizzo area da cui memorizzare lista,
+#            a2 -> indirizzo di memoria puntatore alla testa della lista
+comprensione_stringa_finale_ed_esecuzione_funzioni:
+    li s0,0 # s0 -> dimensione lista
+    loop_comprensione_stringa_finale:
+       lb t0,0(a0) # t0 -> carattere attuale stringa
+       beq t0,zero,return_comprensione_stringa_finale_ed_esecuzione_funzioni
+       li t1,65 # t1 -> A   
+       beq t0,t1,preparazione_ADD
+       li t1,68 # t1 -> D
+       beq t0,t1,preparazione_DEL
+       li t1,80 # t1 -> P
+       beq t0,t1,preparazione_PRINT
+       li t1,82 # t1 -> R
+       beq t0,t1,preparazione_REV
+       li t1,83 # t1 -> S
+       beq t0,t1,caso_SDO
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+   
+   preparazione_ADD:
+       addi a0,a0,1
+       lb a3,0(a0) # a3 -> parametro da inserire nella lista
+       addi sp,sp,-12
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a2,8(sp)
+       mv a0,s0
+       jal ADD
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a2,8(sp)
+       addi sp,sp,12
+       addi a0,a0,1 # incremento a0 per proseguire nell'analisi della stringa finale di comandi
+       addi s0,s0,1 # incremento dimensione lista
+       j loop_comprensione_stringa_finale
+       
+   preparazione_DEL:
+       addi a0,a0,1
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       lb a1,0(a0) # a1 -> parametro da eliminare dalla lista
+       mv a0,s0
+       jal DEL
+       mv s0,a0 # si aggiorna la dimensione della lista
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+       
+   preparazione_PRINT:
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       mv a1,s0
+       jal PRINT
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+       
+   preparazione_REV:
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       mv a0,s0
+       jal REV
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+       
+   caso_SDO:
+       addi a0,a0,1
+       lb t0,0(a0) 
+       li t1,83 # t1 -> S 
+       beq t0,t1,preparazione_SSX
+       li t1,68 # t1 -> D 
+       beq t0,t1,preparazione_SDX
+       li t1,79 # t1 -> O 
+       beq t0,t1,preparazione_SORT
+       
+   preparazione_SSX:
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       mv a0,s0
+       jal SSX
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+       
+   preparazione_SDX:
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       mv a0,s0
+       jal SDX
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+       
+   preparazione_SORT:
+       addi sp,sp,-16
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw a2,12(sp)
+       mv a0,s0
+       jal SORT
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw a2,12(sp)
+       addi sp,sp,16
+       addi a0,a0,1
+       j loop_comprensione_stringa_finale
+        
+    return_comprensione_stringa_finale_ed_esecuzione_funzioni:
+    j RETURN
+       
+############################################################################    
+# parametri input: a0 -> dimensione lista, 
+#                  a1 -> indirizzo area da cui memorizzare lista, 
+#                  a2 -> indirizzo area di memoria puntatore alla testa della lista
+#                  a3 -> dato da memorizzare
+ADD:
+    sb a3,0(a1)
+    bne a0,zero,caso_std_ADD # se dimensione lista = 0 allora...
+    sw a1,0(a2) # puntatore alla testa della lista non piu' nullo
+    mv t0,a1 # t0 -> puntatore elemento aggiunto (DATA)
+    addi a1,a1,1
+    sw t0,0(a1) # puntatore_DATA viene settato all'elemento inserito
+    addi a1,a1,4
+    la t1,memoria_puntatore_testa_lista # t1 -> (area memoria puntatore testa lista)-1
+    addi t1,t1,1 # t1 -> indirizzo memoria puntatore testa lista
+    sw t0,0(t1) # si imposta il nuovo puntatore alla testa della lista
+    j memorizzazione_indirizzo_memoria_maggiore
+    
+    caso_std_ADD: 
+        lw t0,puntatore_testa_lista # t0 -> puntatore alla testa della lista
+        lb t1,0(t0) 
+        addi t1,t0,1 # t1 -> area memoria puntatore elemento successivo
+        lw t2,0(t1) # t2 -> puntatore elemento successivo
+         
+        loop_ADD:
+            beq t2,t0,end_loop_ADD
+            lb t1,0(t2)
+            addi t1,t2,1 # t1 -> area memoria puntatore elemento successivo
+            lw t2,0(t1) # t2 -> puntatore elemento successivo
+            j loop_ADD
+             
+        end_loop_ADD:
+        sw a1,0(t1)
+        addi a1,a1,1
+        sw t0,0(a1)
+        addi a1,a1,4
+    
+    memorizzazione_indirizzo_memoria_maggiore:
+        la t0,memoria_puntatore_testa_lista
+        addi t0,t0,5 # t0 -> area memoria destinata a indirizzo di memoria maggiore (da cui continuare a memorizzare la lista) 
+        sw a1,0(t0)
+              
+    j RETURN
+        
+#############################################################################
+# parametri input: a0 -> dimensione lista, a1 -> parametro da eliminare dalla lista,
+DEL: 
+    beq a0,zero,RETURN
+    lw t0,puntatore_testa_lista
+    la t1,memoria_puntatore_testa_lista
+    addi t3,t1,1 # t3 -> area memoria puntatore alla testa
+    
+    lb t1,0(t0) # t1 -> carattere da controllare
+    addi t0,t0,1 # t0 -> area memoria puntatore elemento successivo
+    lw t2,0(t0) # t2 -> puntatore carattere successivo da controllare
+    
+    li t4,1 # caso di a0 = 1
+    beq t4,a0,caso_base
+    
+    lw t4,puntatore_testa_lista
+    beq a1,t1,cancellazione_std
+    
+    loop_DEL: 
+        beq t1,a1,salto_cambiamento_area_memoria_puntatore_precedente
+        mv t3,t0 # t3 -> area memoria puntatore dell'elemento precedente
+            
+        salto_cambiamento_area_memoria_puntatore_precedente:
+            lb t1,0(t2) # t1 -> carattere da controllare
+            addi t0,t2,1 # t0 -> area memoria puntatore elemento successivo
+            lw t2,0(t0) # t2 -> puntatore carattere successivo da controllare
+            beq t2,t4,preparazione_cancellazione_ultimo_elemento
+            beq a1,t1,cancellazione_std
+            j loop_DEL
+           
+    cancellazione_std:
+        addi a0,a0,-1 # decremento dimensione lista
+        sw t2,0(t3)
+        j loop_DEL
+   
+    preparazione_cancellazione_ultimo_elemento:
+        lw t4,puntatore_testa_lista
+        bne t1,a1,sostituzione_puntatore_ultimo_elemento
+        addi a0,a0,-1 # decremento dimensione lista
+        sw t4,0(t3)
+        j controllo_finale
+        
+    sostituzione_puntatore_ultimo_elemento: 
+        sw t4,0(t0)
+        j controllo_finale
+        
+    caso_base: # lista di un elemento che deve essere eliminato
+        bne t1,a1,RETURN
+        addi a0,a0,-1 # decremento dimensione lista
+        li t4,0xffffffff
+        sw t4,0(t3)
+        j RETURN
+	
+    controllo_finale:
+        beq a0,zero,cambiamento_finale
+	    j RETURN
+
+    cambiamento_finale:
+	    la t0,memoria_puntatore_testa_lista
+        addi t0,t0,1 
+	    li t4,0xffffffff
+        sw t4,0(t0)
+        j RETURN 
+        
+    j RETURN
+         
+##############################################################################
+# parametri input: a0 -> carattere da stampare, a1 -> dimensione lista
+PRINT:
+    la a0,new_line
+    li a7,4
+    ecall
+    
+    beq a1,zero,RETURN # caso la lista vuota
+    
+    lw t0,puntatore_testa_lista
+    lb a0,0(t0) # a0 -> carattere da stampare
+    li a7,11 # stampa char
+    ecall
+    mv t1,t0
+    addi t1,t1,1 
+    lw t2,0(t1) # t2 -> puntatore elemento successivo
+    
+    loop_print:
+        beq t2,t0,RETURN
+        lb a0,0(t2) # a0 -> carattere da stampare
+        li a7,11 # stampa char
+        ecall
+        mv t1,t2
+        addi t1,t1,1
+        lw t2,0(t1)
+        j loop_print
+        
+#############################################################################   
+# parametri input: a0 -> dimensione lista 
+SSX:
+    lw t0,puntatore_testa_lista
+    li t1,0xffffffff
+    beq t0,t1,RETURN # caso per la lista vuota
+    li t1,1
+    beq a0,t1,RETURN # caso per la lista con dimensione = 1
+    
+    # caso standard (con dimensione lista >=2)
+    addi t0,t0,1
+    lw t1,0(t0) # t1 -> puntatore elemento successivo alla testa della lista
+    
+    la t0,memoria_puntatore_testa_lista
+    addi t0,t0,1 # t0 -> area memoria puntatore all testa della lista
+    sw t1,0(t0) # viene settato il nuovo puntatore alla testa
+    
+    j RETURN
+##############################################################################  
+# parametri input: a0 -> dimensione lista  
+SDX:
+    lw t0,puntatore_testa_lista # t0 -> puntatore alla testa della lista
+    li t1,0xffffffff
+    beq t0,t1,RETURN # caso per la lista vuota
+    li t1,1
+    beq a0,t1,RETURN # caso per la lista con dimensione = 1
+    
+    # caso standard (con dimensione lista >=2)
+    lb t1,0(t0) 
+    addi t1,t0,1 # t1 -> area memoria puntatore elemento successivo
+    lw t2,0(t1) # t2 -> puntatore elemento successivo
+         
+    loop_SDX:
+        beq t2,t0,end_loop_SDX
+        lb t1,0(t2)
+        addi t1,t2,1 # t1 -> area memoria puntatore elemento successivo
+        lw t2,0(t1) # t2 -> puntatore elemento successivo
+        j loop_SDX
+             
+    end_loop_SDX:
+        addi t1,t1,-1 # t1 -> area memoria ultimo elemento della lista
+        la t2,memoria_puntatore_testa_lista
+        addi t2,t2,1 # t2 -> area memoria puntatore alla testa della lista
+        sw t1,0(t2)
+        
+    j RETURN
+##############################################################################
+# parametri input: a0 -> dimensione lista
+REV:
+    lw t0,puntatore_testa_lista # t0 -> puntatore alla testa della lista
+    li t1,0xffffffff
+    beq t0,t1,RETURN # caso per la lista vuota
+    li t1,1
+    beq a0,t1,RETURN # caso per la lista con dimensione = 1
+    
+    # caso standard (con dimensione lista >=2)
+    lb t1,0(t0) 
+    addi sp,sp,-1
+    sb t1,0(sp) # inserimento dell'elemento della lista nello stack
+    addi t1,t0,1 # t1 -> area memoria puntatore elemento successivo
+    lw t2,0(t1) # t2 -> puntatore elemento successivo
+         
+    loop_REV_inserimento:
+        beq t2,t0,preparazione_sovrascrizione
+        lb t1,0(t2)
+        addi sp,sp,-1
+        sb t1,0(sp)  # inserimento dell'elemento della lista nello stack
+        addi t1,t2,1 # t1 -> area memoria puntatore elemento successivo
+        lw t2,0(t1) # t2 -> puntatore elemento successivo
+        j loop_REV_inserimento
+             
+    preparazione_sovrascrizione:
+        lb t1,0(sp) # t1 -> ultimo carattere inserito nello stack
+        addi sp,sp,1
+        sb t1,0(t0)
+        addi t1,t0,1 # t1 -> area memoria puntatore elemento successivo
+        lw t2,0(t1) # t2 -> puntatore elemento successivo
+        
+    loop_REV_sovrascrizione:
+        beq t2,t0,RETURN
+        lb t1,0(sp) # t1 -> ultimo carattere inserito nello stack
+        addi sp,sp,1
+        sb t1,0(t2)
+        addi t1,t2,1 # t1 -> area memoria puntatore elemento successivo
+        lw t2,0(t1) # t2 -> puntatore elemento successivo
+        j loop_REV_sovrascrizione
+    
+    j RETURN 
+##############################################################################
+# MergeSort Ricorsivo
+# carattere speciale < numero (48-57) < lettera minuscola (97-122) < lettera maiuscola (65-90)
+# parametri input: a0 -> dimensione lista
+SORT:
+	lw t0,puntatore_testa_lista # t0 -> puntatore alla testa della lista
+    li t1,0xffffffff
+    beq t0,t1,RETURN # caso per la lista vuota
+    li t1,1
+    beq a0,t1,RETURN # caso per la lista con dimensione = 1
+    
+    # caso standard (con dimensione lista >=2)
+    lw t1,indirizzo_memoria_maggiore
+    addi t1,t1,20 # memorizzo l'array da ordinare in 20 byte di scarto dall'indirizzo 
+			       # di memoria maggiore per la memorizzazione della lista
+    mv a0,t1 # a0 -> area memoria primo elemento nell'array 
+	lb t2,0(t0) # t2 -> elemento da inserire nell'array
+	sb t2,0(t1) # t1 -> area di memoria per array da ordinare
+	addi t1,t1,1
+	addi t3,t0,1
+	lw t4,0(t3)
+
+	loop_SORT_inserimento: # gli elementi della lista vengono inseriti nell'area di memoria apposita per essere ordinati
+        beq t4,t0,fine_inserimento
+        lb t2,0(t4)
+        sb t2,0(t1) # inserimento dell'elemento della lista nell'array
+        addi t1,t1,1
+        addi t3,t4,1 # t3 -> area memoria puntatore elemento successivo
+        lw t4,0(t3) # t4 -> puntatore elemento successivo
+        j loop_SORT_inserimento
+
+	fine_inserimento:
+        addi a1,t1,-1 # a1 -> area memoria ultimo elemento nell'array
+        addi a2,a1,20 # a2 -> puntatore testa array di supporto MergeSort
+        addi sp,sp,-8
+        sw ra,0(sp)
+        sw a0,4(sp)
+        jal MERGESORT
+        lw ra,0(sp)
+        lw t1,4(sp) # t1 -> area memoria elemento del vettore da reinserire nella lista
+        addi sp,sp,8
+        mv a0,t1 # a0 -> parametro azzeramento_sottostringa
+        lw t0,puntatore_testa_lista
+        lb t3,0(t1) # t3 -> elemento da reinserire nella lista
+        addi t1,t1,1
+        sb t3,0(t0)
+        addi t2,t0,1 # t2 -> area memoria puntatore elemento successivo
+        lw t4,0(t2) # t4 -> puntatore elemento successivo
+        
+	reinserimento_lista:
+        beq t4,t0,azzeramento_array
+        lb t3,0(t1) # t3 -> elemento da reinserire nella lista
+        addi t1,t1,1 # t1 -> area memoria elemento lista in array da reinserire
+        sb t3,0(t4)
+        addi t2,t4,1
+        lw t4,0(t2)
+        j reinserimento_lista
+
+	azzeramento_array:
+        addi sp,sp,-4
+        sw ra,0(sp)
+        jal azzeramento_sottostringa
+        lw ra,0(sp)
+        addi sp,sp,4
+	  
+    j RETURN
+###############################################################################
+# parametri input: a0 -> area memoria primo elemento lista in array,
+#                  a1 -> area memoria ultimo elemento lista in array, 
+#                  a2 -> puntatore testa array di supporto MergeSort
+MERGESORT: 
+    mv a3,a2 # a3 -> puntatore testa array di supporto MergeSort
+    
+MERGESORT1:
+    # gestione stack per chiamate ricorsive
+    addi sp,sp,-20
+    sw ra,0(sp)
+    sw a3,4(sp) 
+    sw a0,8(sp)
+    sw a1,12(sp)
+    
+    # caso base (array di dimensione = 1)
+    add t0,a0,a1
+    bge a0,a1,end_MERGESORT
+    
+    srli t0,t0,1 # t0 -> meta' lunghezza array considerato
+    mv a1,t0
+    sw a1,16(sp) 
+    
+    jal MERGESORT1 # chiamata ricorsiva sul sottoarray sinistro
+    
+    lw a0,16(sp) # a0 -> indirizzo elemento iniziale sottoarray destro
+    addi a0,a0,1
+    lw a1,12(sp) # a1 -> indirizzo elemento finale sottoarray destro
+    
+    jal MERGESORT1 # chiamata ricorsiva sul sottoarray destro
+    
+    lw a0,8(sp) # a0 -> indirizzo primo elemento 
+    lw a2,12(sp) # a2 -> indirizzo elemento finale
+    lw a1,16(sp) # a1 -> indirizzo elemento centrale
+    
+    jal MERGE
+    
+    end_MERGESORT:
+        lw ra,0(sp)
+        lw a3,4(sp) 
+        addi sp,sp,20
+    
+    j RETURN
+###############################################################################
+# Nei commenti successivi si indica con A l'array contenente gli elementi della lista da ordinare
+# parametri input: a0 -> indirizzo primo elemento sottoarray sinistro, 
+#                  a1 -> indirizzo ultimo elemento sottoarray sinistro, 
+#                  a2 -> indirizzo ultimo elemento sottoarray destro, 
+#                  a3 -> puntatore testa array di supporto MergeSort
+MERGE:
+   # a0 -> left1, a1 -> right1, a2 -> right2
+   
+   addi t0,a1,1 # t0 -> left2 
+   sub t1,a2,a0 
+   addi t1,t1,1 #t1 -> right2-left1+1
+   
+   addi sp, sp, -20
+   sw ra, 0(sp) 
+   sw a0, 4(sp) # a0 -> left1
+   sw a1, 8(sp) # a1 -> right1
+   sw a2, 12(sp) # a2 -> right2
+   sw a3, 16(sp) # a3 -> limite sinistro array di supporto
+   
+   loop_MERGE:
+       bgt a0,a1,if_left1<=right1
+       bgt t0,a2,if_left1<=right1
+       
+       lb t2,0(a0) # t2 -> A[left1]
+       lb t3,0(t0) # t3 -> A[left2]
+       
+       addi sp,sp,-20
+       sw ra,0(sp)
+       sw a0,4(sp)
+       sw a1,8(sp)
+       sw t0,12(sp)
+       sw t1,16(sp)
+       mv a0,t2
+       mv a1,t3
+       
+       jal CONTROLLO_CATEGORIA_COPPIA_ELEMENTI
+       
+       mv t2,a0 # t2 -> categoria elemento A[left1]
+       mv t3,a1 # t3 -> categoria elemento A[left2]
+       lw ra,0(sp)
+       lw a0,4(sp)
+       lw a1,8(sp)
+       lw t0,12(sp)
+       lw t1,16(sp)
+       addi sp,sp,20
+       
+       bge t2,t3,else_MERGE
+       if_MERGE:
+           lb t2,0(a0)
+           sb t2,0(a3)
+           addi a0,a0,1
+           addi a3,a3,1
+           j loop_MERGE
+           
+       else_MERGE:
+           lb t3,0(t0)
+           sb t3,0(a3) 
+           addi t0,t0,1
+           addi a3,a3,1
+           j loop_MERGE
+     
+   if_left1<=right1:
+       bgt a0,a1,if_left1>right1
+       mv t5,a0
+       loop_if_left1<=right1:
+           bgt t5,a1,ricopia_array
+           lb t6,0(t5)
+           sb t6,0(a3)
+           addi t5,t5,1
+           addi a3,a3,1
+           j loop_if_left1<=right1
+           
+   if_left1>right1:
+       mv t5,t0
+       loop_if_left1>right1:
+           bgt t5,a2,ricopia_array
+           lb t6,0(t5)
+           sb t6,0(a3)
+           addi t5,t5,1
+           addi a3,a3,1
+           j loop_if_left1>right1
+   
+   ricopia_array:
+       lw ra,0(sp) 
+       lw a0,4(sp) # a0 -> left1
+       lw a1,8(sp) # a1 -> right1
+       lw a2,12(sp) # a2 -> right2
+       lw a3,16(sp) # a3 -> limite sinistro array supporto
+       addi sp,sp,20
+       mv t5,a0 # t5 -> left1
+       mv t4,a3 # t4 -> limite sinistro array supporto
+       loop_ricopia_array:
+           bgt t5,a2,azzeramento_array_supporto
+           lb t6,0(t4) # t6 -> carattere da ricopiare
+           sb t6,0(t5)
+           addi t4,t4,1
+           addi t5,t5,1
+           j loop_ricopia_array
+           
+    azzeramento_array_supporto:
+        addi sp,sp,-4
+        sw ra,0(sp)
+        mv a0,a3
+        jal azzeramento_sottostringa
+        lw ra,0(sp)
+        addi sp,sp,4
+        j RETURN 
+###############################################################################
+# Nei commenti successivi si indica con A l'array contenente gli elementi della lista da ordinare
+# parametri input: a0 -> A[left1], a1 -> A[left2]
+# parametri output: a0 -> categoria A[left1] / elemento in  A[left1], a1 -> categoria A[left2] / elemento in  A[left2]
+# carattere speciale (categoria 0) < numero (48-57)(categoria 1) < lettera minuscola (97-122)(categoria 2) < lettera maiuscola (65-90)(categoria 3)
+CONTROLLO_CATEGORIA_COPPIA_ELEMENTI:
+    
+    beq a0,a1,RETURN # se a0=a1 non avviene nessuno scambio
+    
+    li t1,0 # t1 -> categoria di a0
+    li t2,0 # t2 -> categoria di a1
+    
+    controllo_numero_1:
+        li t0,48
+        blt a0,t0,controllo_lettera_minuscola_1
+        li t0,57
+        bgt a0,t0,controllo_lettera_minuscola_1
+        li t1,1
+        j controllo_numero_2
+    
+    controllo_lettera_minuscola_1:
+        li t0,97
+        blt a0,t0,controllo_lettera_maiuscola_1
+        li t0,122
+        bgt a0,t0,controllo_lettera_maiuscola_1
+        li t1,2
+        j controllo_numero_2 
+    
+    controllo_lettera_maiuscola_1:
+        li t0,65
+        blt a0,t0,controllo_carattere_speciale_1
+        li t0,90
+        bgt a0,t0,controllo_carattere_speciale_1
+        li t1,3
+        j controllo_numero_2 
+        
+    controllo_carattere_speciale_1:
+        li t1,0
+        
+    controllo_numero_2:
+        li t0,48
+        blt a1,t0,controllo_lettera_minuscola_2
+        li t0,57
+        bgt a1,t0,controllo_lettera_minuscola_2
+        li t2,1
+        j controllo_categorie
+        
+    controllo_lettera_minuscola_2:
+        li t0,97
+        blt a1,t0,controllo_lettera_maiuscola_2
+        li t0,122
+        bgt a1,t0,controllo_lettera_maiuscola_2
+        li t2,2
+        j controllo_categorie
+         
+    controllo_lettera_maiuscola_2:
+        li t0,65
+        blt a1,t0,controllo_carattere_speciale_2
+        li t0,90
+        bgt a1,t0,controllo_carattere_speciale_2
+        li t2,3
+        j controllo_categorie
+         
+    controllo_carattere_speciale_2:  
+        li t2,0 
+         
+    controllo_categorie:
+        beq t1,t2,RETURN
+        mv a0,t1
+        mv a1,t2
+        j RETURN
+        
+###############################################################################
+RETURN:
+    jr ra
+###############################################################################
+################################################################################
